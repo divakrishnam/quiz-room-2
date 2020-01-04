@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context=".activity.DetailActivity">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/profile"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NPM"
+        android:layout_marginVertical="8dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_npm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NPM"
+        android:layout_marginVertical="2dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:layout_marginVertical="8dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:layout_marginVertical="2dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:layout_marginVertical="8dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:layout_marginVertical="2dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_marginVertical="8dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_marginVertical="2dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_marginVertical="8dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_marginVertical="2dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jenis Kelamin"
+        android:layout_marginVertical="8dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_jenkel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jenis Kelamin"
+        android:layout_marginVertical="2dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No. Telepon"
+        android:layout_marginVertical="8dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_notelepon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No. Telepon"
+        android:layout_marginVertical="2dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Program Studi"
+        android:layout_marginVertical="8dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_prodi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Program Studi"
+        android:layout_marginVertical="2dp"/>
+
+</LinearLayout>
